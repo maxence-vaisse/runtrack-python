@@ -1,0 +1,2 @@
+alphatbet = 'abcdefghijklmnopqrstuvwxyz'
+print (alphatbet)
