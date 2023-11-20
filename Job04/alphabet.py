@@ -1,2 +1,0 @@
-alphatbet = 'abcdefghijklmnopqrstuvwxyz'
-print (alphatbet)
