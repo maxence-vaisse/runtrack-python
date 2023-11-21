@@ -1,2 +1,2 @@
-for nombre in range(21):
-    print(nombre)
+for nombres in range(21):
+    print(nombres)
