@@ -1,8 +1,9 @@
-def draw_rectangle(width, height):
-    for i in range(height):
-        if i == 0 or i == height - 1:
-            print('-' * width)
-        else:
-            print('|' + ' ' * (width - 2) + '|')
-
-draw_rectangle(10, 3)
+def draw_rectangle(largeur, hauteur):
+        hauteur_rectangle = 0
+        print ("|" + "-" * largeur + "|")
+        while hauteur_rectangle < hauteur - 2:
+            print ("|" + " " * largeur + "|")
+            hauteur_rectangle += 1
+        print ("|" + "-" * largeur + "|")
+        
+draw_rectangle (10, 3)
